@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestCode" verbose="2" thread-count="6"
+	parallel="tests" preserve-order="true">
+
+	<test name="Mozilla Test">
+		<parameter name="browser" value="mozilla" />
+		<groups>
+			<run>
+				<include name="test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="pages.HomePage" />
+		</classes>
+	</test>
+	<test name="Chrome Test">
+		<parameter name="browser" value="chrome" />
+		<groups>
+			<run>
+				<include name="test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="pages.HomePage" />
+		</classes>
+	</test>
+	<test name="Internet Explorer Test">
+		<parameter name="browser" value="explorer" />
+		<groups>
+			<run>
+				<include name="test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="pages.HomePage" />
+		</classes>
+	</test>
+</suite>

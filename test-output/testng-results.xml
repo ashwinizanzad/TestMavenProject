@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestCode" duration-ms="16908" started-at="2018-10-03T10:17:34Z" finished-at="2018-10-03T10:17:51Z">
+    <groups>
+      <group name="test">
+        <method signature="LoginPage.test(java.lang.String)[pri:0, instance:pages.LoginPage@29774679]" name="test" class="pages.LoginPage"/>
+        <method signature="LoginPage.test(java.lang.String)[pri:0, instance:pages.LoginPage@754ba872]" name="test" class="pages.LoginPage"/>
+        <method signature="LoginPage.test(java.lang.String)[pri:0, instance:pages.LoginPage@239963d8]" name="test" class="pages.LoginPage"/>
+      </group> <!-- test -->
+    </groups>
+    <test name="Internet Explorer Test" duration-ms="4387" started-at="2018-10-03T10:17:34Z" finished-at="2018-10-03T10:17:38Z">
+      <class name="pages.LoginPage">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:pages.LoginPage@239963d8]" name="test" duration-ms="4340" started-at="2018-10-03T10:17:34Z" finished-at="2018-10-03T10:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- pages.LoginPage -->
+    </test> <!-- Internet Explorer Test -->
+    <test name="Chrome Test" duration-ms="12405" started-at="2018-10-03T10:17:34Z" finished-at="2018-10-03T10:17:46Z">
+      <class name="pages.LoginPage">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:pages.LoginPage@754ba872]" name="test" duration-ms="12359" started-at="2018-10-03T10:17:34Z" finished-at="2018-10-03T10:17:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- pages.LoginPage -->
+    </test> <!-- Chrome Test -->
+    <test name="Mozilla Test" duration-ms="16908" started-at="2018-10-03T10:17:34Z" finished-at="2018-10-03T10:17:51Z">
+      <class name="pages.LoginPage">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:pages.LoginPage@29774679]" name="test" duration-ms="16864" started-at="2018-10-03T10:17:34Z" finished-at="2018-10-03T10:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- pages.LoginPage -->
+    </test> <!-- Mozilla Test -->
+  </suite> <!-- TestCode -->
+</testng-results>
