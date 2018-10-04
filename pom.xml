@@ -11,8 +11,18 @@
 	<name>testmavenproject</name>
 	<url>http://maven.apache.org</url>
 
-	<properties>
+<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<testSuiteFile>config/testrun.xml</testSuiteFile>
+		<jre.level>1.8</jre.level>
+		<jdk.level>1.8</jdk.level>
+		<test.results.dir>test-results</test.results.dir>
+		<run.time>${maven.build.timestamp}</run.time>
+		<lib.dir>${project.basedir}/lib</lib.dir>
+		<resource.dir>${project.basedir}/resources</resource.dir>
+		<output.dir>${test.results.dir}/${run.time}</output.dir>
+		<maven.build.timestamp.format>dd_MMM_yyyy_hh_mm_aa</maven.build.timestamp.format>
+		<testng.report.title>Test Demo</testng.report.title>
 	</properties>
 
 	<dependencies>
