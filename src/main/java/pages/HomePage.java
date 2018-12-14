@@ -44,6 +44,7 @@ public class HomePage {
 	@Parameters("browser")
 	public void test(String browser) throws InterruptedException {
 		launchBrowser(browser);
+		System.out.println("test1233");
 		openApplication();
 		closeDriver();
 	}
